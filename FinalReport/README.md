@@ -89,4 +89,4 @@ Here are some examples of the morphed images used during this project :
 ![](gif_examples/joconde.gif)
 ![](gif_examples/joconde_face.gif)
 ![](gif_examples/joconde_hair.gif)
-![](gif_examples/OppenheimmerGosling.gif)
+![](gif_examples/OpenheimmerGosling.gif)
