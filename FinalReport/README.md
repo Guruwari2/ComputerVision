@@ -27,6 +27,8 @@ pip install numpy opencv-python matplotlib imageio
 
 ## Usage
 
+Desired morphed images should be place into the input directory '/input'. If only one image is place, the mirrored of the image is used for the morphing. If no image is availble or more than 2, the basic image in test_input are used instead.
+
 1. **Basic Morphing**
 
    To compute the morphing between two images, simply run:
@@ -65,6 +67,8 @@ pip install numpy opencv-python matplotlib imageio
    python main.py --noface
    ```
 
+Of course any of the previous options are cumulative and not exclusive (except gif and wfrac as gif already use fixed morphing value to process the desired output)
+
 ## Examples
 
 - Compute morphing with a specific morphing value:
@@ -74,4 +78,15 @@ pip install numpy opencv-python matplotlib imageio
 - Compute morphing with a specific morphing value:
   ```sh
   python main.py --wfrac 0.75 
-  ```  
+  ``` 
+
+Here are some examples of the morphed images used during this project :
+
+
+![](gif_examples/bus.gif)
+![](gif_examples/einsteinfull.gif)
+![](gif_examples/emma.gif)
+![](gif_examples/joconde.gif)
+![](gif_examples/joconde_face.gif)
+![](gif_examples/joconde_hair.gif)
+![](gif_examples/OppenheimmerGosling.gif)
