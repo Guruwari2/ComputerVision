@@ -22,4 +22,28 @@ Ensure you have the following packages installed:
 
 You can install the required packages using:
 ```sh
-pip install numpy opencv-python matplotlib imageio
+pip install numpy opencv-python matplotlib imageio 
+
+
+## Usage
+
+1. **Basic Morphing**
+
+   To compute the morphing between two images, simply run:
+   ```sh
+   python main.py
+
+2. **Create a GIF**
+   To create a GIF of the morphing process, use the `--gif` option:
+   ```sh
+   python main.py --gif
+
+3. **Manual Matching Points**
+   To manually add matching points between the images, use the `--manualpoints` option:
+   ```sh
+   python main.py --manualpoints
+
+4. **Specify Morphing Value**
+   To specify the morphing value, use the `--wfrac` option followed by the desired value (e.g., `0.5` for 50% morphing):
+   ```sh
+   python main.py --wfrac 0.5
