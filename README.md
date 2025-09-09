@@ -1,3 +1,3 @@
 # ComputerVision
-Computer Vision Homeworks and Project for Keio Univervisty
+Computer Vision Homeworks and Project for Keio University
 
